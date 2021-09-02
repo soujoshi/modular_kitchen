@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK?Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Benne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Modular Kitchen</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="topnav" id="myTopnav">
+      <label class="logo">
+        <img src="./images/logo.JPG" alt="logo" />
+      </label>
+      <ul class="navb">
+        <li><a class="active" id="navi" href="#">HOME</a></li>
+        <li><a id="navi" href="about.html">ABOUT US</a></li>
+        <li><a id="navi" href="product.html">PRODUCTS</a></li>
+        <li><a id="navi" href="howitwork.html">HOW IT WORK</a></li>
+        <li><a id="navi" href="Gallery.html">GALLERY</a></li>
+        <!-- <li><a id="navi" href="enquiry.html">ENQUIRY</a></li> -->
+        <li><a id="navi" href="contact.html">CONTACT US</a></li>
+        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars fa-2x"></i></a></li>
+      </ul>
+    </nav>
+    <main>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="./images/kitchen.jpg"
+              alt="First slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Modular Kitchen</h5>
+              <p>The sign of your happiness.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/Kitchen2.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Modular Kitchen Cabinets</h5>
+              <p>Amazing place where you cook happiness & we cook designs.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/Kitchen3.jpg"
+              alt="Third slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Modular Kitchen Designs</h5>
+              <p>Kitchens are made for bringing families together.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/kitchen4.jpg"
+              alt="Fifth slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Modular Kitchen Price</h5>
+              <p>The Reasonable price with excellent quality.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="./images/wurfel.jpg"
+              alt="Sixth slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Modular Kitchen Manufacturer</h5>
+              <p>There can't be any better choice other than Star Kitchens.</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="left carousel-control"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-left"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="right carousel-control"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-right"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Middle content -->
+      <!-- <div class="container">
+        <form id="enquiryform" novalidate="novalidate" onsubmit="return validationER()">
+          <div class="subheading">Enquiry Now</div>
+          <input
+            type="text"
+            class="i1"
+            name="Name"
+            id="nameBox1"
+            placeholder="Name"
+          />
+          <div class="eor1" id="nameErr"></div>
+          <input
+            type="text"
+            class="i2"
+            name="Email"
+            id="mailid"
+            placeholder="Email"
+          />
+          <div class="eor1" id="emailErr"></div>
+          <input
+            type="text"
+            class="i3"
+            maxlength="10"
+            name="Mobile"
+            id="number"
+            placeholder="Mobile"
+          />
+          <div class="eor1" id="phoneErr"></div>
+          <input
+            type="text"
+            class="i4"
+            minlength="6"
+            maxlength="6"
+            name="Pincode"
+            id="pincode"
+            placeholder="Pin Code"
+          />
+          <br />
+          <input
+            type="text"
+            class="i5"
+            name="City"
+            id="Selectcity"
+            placeholder="Your City"
+          />
+          <br />
+          <button class="but"><span>Submit</span></button>
+        </form>
+      </div> -->
+      <div class="mid1">
+        <h1 class="heading1">DESIGNS WE LOVE</h1>
+      </div>
+
+      <div class="container1">
+        <div class="col-3 imgTab">
+          <img src="./images/u-shaped-kitchen.jpg" alt="U shaped" />
+          <h3 class="text">U SHAPED KITCHEN</h3>
+          <a class="text_para" href="u-shape.html">CLICK HERE....</a>
+        </div>
+
+        <div class="col-3 imgTab1">
+          <img src="./images/l-shaped-kitchen.jpg" alt="L shaped" />
+          <h3 class="text1">L SHAPED KITCHEN</h3>
+          <a class="text_para1" href="l-shape.html">CLICK HERE....</a>
+        </div>
+        <div class="col-3 imgTab2">
+          <img id="str1" src="./images/straight1.jpg" alt="straight shaped" />
+          <h3 class="text2">STRAIGHT KITCHEN</h3>
+          <a class="text_para2" href="straight.html">CLICK HERE....</a>
+        </div>
+        <div class="col-3 imgTab3">
+          <img id="str2" src="./images/eshap1.jpg" alt="E shaped" />
+          <h3 class="text3">E SHAPED KITCHEN</h3>
+          <a class="text_para3" href="e-shape.html">CLICK HERE....</a>
+        </div>
+        <div class="col-3 imgTab4">
+          <img src="./images/italian-shaped-kitchen.jpg" alt="Italian shaped" />
+          <h3 class="text4">ITALIAN SHAPED KITCHEN</h3>
+          <a class="text_para4" href="island.html">CLICK HERE....</a>
+        </div>
+      </div>
+
+      <div class="container3">
+        <h2>OUR PRODUCTS RANGE</h2>
+      </div>
+      <div class="container4">
+        <img class="im1" src="./images/1.png" alt="1" align="left" />
+        <h2 class="head_text">PLATINUM</h2>
+        <p class="para_text">
+          This range brings you top-notch quality which suits your modish
+          living. With the assurance of bringing international standards in your
+          home space.
+        </p>
+        <a href="platinum.html"><button class="butt">View All Products</button></a>
+      </div>
+      <div class="container5">
+        <img class="im2" src="./images/2.png" alt="2" align="right" />
+        <h2 class="head_text1">PREMIUM</h2>
+        <p class="para_text1">
+          In our premium segment, we provide you cost-effective end product
+          along with international standards that will make your kitchen stand
+          out from others
+        </p>
+        <a href="premium.html"><button class="butt1">View All Products</button></a>
+      </div>
+
+      <div class="container6">
+        <img class="im3" src="./images/3.png" alt="3" align="left" />
+        <h2 class="head_text2">EXECUTIVE</h2>
+        <p class="para_text2">
+          For our executive range, we get you the eccentric product of kitchen
+          style for your aesthetic and lively taste.
+        </p>
+        <a href="executive.html"><button class="butt2">View All Products</button></a>
+      </div>
+
+      <div class="container7">
+        <img class="im4" src="./images/4.png" alt="4" align="right" />
+        <h2 class="head_text3">ECONOMY</h2>
+        <p class="para_text3">
+          We have designed this range according to your budget without
+          compromising our quality. We bring you a classy kitchen within
+          economic range
+        </p>
+        <a href="economy.html"><button class="butt3">View All Products</button></a>
+      </div>
+
+      <div class="container8">
+        <img class="im5" src="./images/1 (1).png" alt="6" align="left" />
+        <h2 class="head_text4">METAL</h2>
+        <p class="para_text4">
+          We work with an established brand that has made its place in the last
+          150 years, the product everyone trust on, Godrej Interio
+        </p>
+        <a href="metal.html"><button class="butt4">View All Products</button></a>
+      </div>
+
+      <div class="container9">
+        <img class="im6" src="./images/steal.png" alt="5" align="right" />
+        <h2 class="head_text5">STAINLESS STEEL</h2>
+        <p class="para_text5">
+          We promise to get you superior kitchen designs with excellent finish
+          and that too without the worries of tarnishing or rust.
+        </p>
+        <a href="stainless.html"><button class="butt5">View All Products</button></a>
+      </div>
+    </main>
+    <!--Footer-->
+    <footer class="sticky-footer">
+        <div class="containers">
+            <!--footer showroom-->
+            <div class="footer-showroom">
+            <div class="row">
+                <div class="col-sm-8">
+                <h2>Visit Our Office</h2>
+                <p>
+                    Hno.400. Gali no. 10, J block ashok vihar
+                    phase 3 Gurugram Haryana
+                </p>
+                <p>
+                    Mon - Sun: 10 AM - 7 PM &nbsp; &nbsp; | &nbsp; &nbsp; Wednesday
+                    Closed
+                </p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a href="contact.html" class="btn btn-clean"><span><i class="fa fa-map-marker"></i></span> Get directions</a>
+                    <div class="call-us h4">
+                        <span><i class="fa fa-phone fa-flip-right" aria-hidden="true"></i></span>
+                        +91-9310458493 <br>
+                        &nbsp; &nbsp;&nbsp; +91-9654776108
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer links-->
+        <div class="footer-links">
+            <div class="row">
+                <div class="col-sm-4 col-md-2">
+                    <h5>Range</h5>
+                    <ul>
+                        <li><a href="platinum.html">Platinum</a></li><br />
+                        <li><a href="executive.html">Executive</a></li><br />
+                        <li><a href="economy.html">Economy</a></li><br />
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <h5>Design</h5>
+                    <ul>
+                        <li><a href="straight.html">Straight Design</a></li><br />
+                        <li><a href="u-shape.html">U Shape Design</a></li><br />
+                        <li><a href="l-shape.html">L Shape Design</a></li><br />
+                        <li><a href="e-shape.html">E Shape Design</a></li><br />
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-md-4 col-xs-6">
+                    <h5>Product</h5>
+                    <ul>
+                        <li><a href="Carcass.html">Carcass Type</a></li><br />
+                        <li><a href="shutter.html">Shutter Type</a></li><br />
+                        <li><a href="hardware.html">Hardware</a></li><br />
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <h5>Showroom</h5>
+                    <p style="line-height: 32px">
+                        <strong><b><a href="#">Gurgaon-</a></b></strong>Hno.400. Gali no. 10, J block ashok vihar
+                        phase 3 Gurugram Haryana
+                        <br />
+                    </p>
+                </div>
+            </div>
+        </div>
+       <!--footer social-->
+        <div class="footer-social">
+            <div class="row">
+                <div class="col-sm-8">
+                    Copyright &copy; 2021 SS Kitchen | All Rights Reserved.|
+                    Powered By -
+                    <ul class="social-list">
+                        <li class="social-list__item">
+                            <a class="social-list__link" href="https://www.instagram.com/souravjoshi3366/">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a class="social-list__link" href="https://twitter.com/SouravJ72046939">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a class="social-list__link" href="https://github.com/soujoshi">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a class="social-list__link" href="https://www.linkedin.com/in/sourav-joshi-610b21140/">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Element: OT Heading -->
+
+    <!-- <script type="text/javascript">
+      function validateER() {
+        document.getElementById("nameEr").innerHTML = "";
+        document.getElementById("phoneEr").innerHTML = "";
+        document.getElementById("emailEr").innerHTML = "";
+
+        var nm = document.getElementById("nm").value;
+        var no = document.getElementById("no").value;
+        var em = document.getElementById("em").value;
+
+        document.getElementById("url").value = document.URL;
+
+        //var googleResponse = jQuery('#g-recaptcha-response').val();
+        var letters = /^[A-Za-z ]+$/;
+
+        if (nm == "") {
+          document.getElementById("nameEr").innerHTML = " (Please Enter Name) ";
+          document.getElementById("nm").value = "";
+          document.getElementById("nm").focus();
+          return false;
+        } else if (!document.getElementById("nm").value.match(letters)) {
+          document.getElementById("nameEr").innerHTML = " (Name must be Alphabetic)";
+          document.getElementById("nm").focus();
+          return false;
+        } else if (!isInteger(no)) {
+          document.getElementById("phoneEr").innerHTML =
+            " (Contact No. should be Numeric.)";
+          document.getElementById("no").value = "";
+          document.getElementById("no").focus();
+          return false;
+        } else if (no.length != 10) {
+          document.getElementById("phoneEr").innerHTML =
+            "*Mobile Number must be 10 digits";
+          document.getElementById("no").value = "";
+          document.getElementById("no").focus();
+          return false;
+        } else if (
+          no == "1111111111" ||
+          no == "2222222222" ||
+          no == "3333333333" ||
+          no == "1234567890" ||
+          no == "4444444444" ||
+          no == "5555555555" ||
+          no == "6666666666" ||
+          no == "9999999999" ||
+          no == "8888888888" ||
+          no == "1234567891"
+        ) {
+          document.getElementById("phoneEr").innerHTML = "* Mobile Number is Wrong";
+          document.getElementById("no").value = "";
+          document.getElementById("no").focus();
+          return false;
+        }
+
+        if (em == "") {
+          document.getElementById("emailEr").innerHTML = " (Please Enter Email)";
+          document.getElementById("em").value = "";
+          document.getElementById("em").focus();
+          return false;
+        } else if (!validateEmail(em)) {
+          document.getElementById("emailEr").innerHTML =
+            " (Please Enter your Valid Email)";
+          document.getElementById("em").value = "";
+          document.getElementById("em").focus();
+          return false;
+        }
+        return true;
+      }
+    </script>   -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
